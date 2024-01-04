@@ -1,18 +1,24 @@
+// Initial array
 let data = [11, 22, 33, 55, 66, 77, 88, 99];
+// New element to be added
 let newEl = 44;
+// Position where the new element should be added
 let position = 3;
-//for add any value in array on a particular position first create a empty space for that value
-console.log(data);
-for (i = data.length - 1; i >= 0; i--) {
-  //   console.log(data[i]);
+console.log(data); // Log the initial array
+// Loop through the array in reverse to create space for the new element
+for (let i = data.length - 1; i >= 0; i--) {
+  // Check if the current index is greater than or equal to the specified position
   if (i >= position) {
+    // Shift elements to the right to create space for the new element
     data[i + 1] = data[i];
+    // If the current index is equal to the specified position, insert the new element
     if (i == position) {
       data[i] = newEl;
     }
   }
 }
-console.log(data);
+console.log("modified data",data); // Log the array after adding the new element
+
 
 
 // with some input and button ________________________________________________
