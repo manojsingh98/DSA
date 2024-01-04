@@ -6,8 +6,6 @@ This repository contains a collection of Data Structures and Algorithms implemen
 
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -24,8 +22,5 @@ To get started with this repository, follow these steps:
 
 Feel free to explore, learn, and contribute to this project!
 
-## Contributing
-
-Contributions are welcome! If you'd like to add new topics, improve existing content, or fix issues, please follow the [contribution guidelines](CONTRIBUTING.md). Your contributions will help make this repository a valuable resource for the community.
 
 Happy Coding!
