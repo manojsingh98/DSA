@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <script src="./index.js"></script>
+    <!-- <script src="./index.js"></script> -->
+    <script>
+        let arr = [102, 104, 54, 43, 234, 65, 989, 43, 33, 34]
+        let smallest = arr[0];
+        let largest = arr[0];
+
+        for(let i = 0; i < arr.length; i++){
+            if(arr[i] < smallest){
+                smallest = arr[i]
+            }
+            if (arr[i]> largest){
+                largest = arr[i]
+            }
+        }
+
+        console.log(smallest);
+        console.log(largest);
+    </script>
 </body>
+
 </html>

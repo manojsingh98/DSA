@@ -1,9 +1,11 @@
-function paindrom(str) {
-  for (let i = 0; i < str.length / 2; i++) {
-    if (str[i] != str[str.length - 1 - i]) {
-      return false;
+function isPalindrome(str) {
+    const val = str.toString();
+    for (let i = 0; i < val.length / 2; i++) {
+        if (val[i] !== val[val.length - 1 - i]) {
+            return false;
+        }
     }
-  }
-  return true;
+    return true;
 }
-console.log(paindrom("radar"));
+
+console.log(isPalindrome(12621));
