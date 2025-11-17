@@ -1,0 +1,20 @@
+Reverse a string without using reverse().
+Remove duplicate values from an array.
+Find the second largest number in an array.
+Compare two objects for equality (shallow compare).
+Flatten a nested array without using .flat().
+Implement a debounce() function.
+Implement a throttle() function.
+Create a custom map() method.
+Create a custom filter() method.
+Create a custom reduce() method.
+Check if a string is a palindrome.
+Convert a string to title case format.
+Count frequency of each character in a string.
+Sort an array of objects based on a given key.
+Write promise chaining using multiple async operations.
+Convert a callback-based function into a Promise.
+Implement a retry logic for failed asynchronous tasks.
+Explain and demonstrate event loop with microtask & macrotask queue.
+Deep clone an object without using JSON methods.
+Implement a curried function (e.g., sum(1)(2)(3)).
